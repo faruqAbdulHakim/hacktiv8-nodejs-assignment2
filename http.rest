@@ -1,0 +1,11 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "name": "Faruq",
+  "password": "inipassword"
+}
+
+###
+GET http://localhost:3000
+X-Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywibmFtZSI6Ikhha2ltIiwiaWF0IjoxNjYzNjgwMDA1fQ.vjgFUj_JH9CAFDG7nAIK4xIxFpoMAs1a8n_ZzHoxYto
